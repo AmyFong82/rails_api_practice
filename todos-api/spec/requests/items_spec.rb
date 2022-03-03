@@ -21,7 +21,7 @@ RSpec.describe 'Items API' do
       end
     end
 
-    contect 'when todo does not exist' do
+    context 'when todo does not exist' do
       let(:todo_id) { 0 }
 
       it 'returns status code 404' do
